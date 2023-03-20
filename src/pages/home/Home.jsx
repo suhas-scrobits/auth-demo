@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import { help } from "../../api/auth";
 
 function Home() {
@@ -13,7 +14,9 @@ function Home() {
       <p className="p-8 border-2 border-solid border-yellow-400">
         Welcome to Dashboard
       </p>
-      <button></button>
+      <Link to={"/login"}>
+        <button>login</button>
+      </Link>
     </div>
   );
 }
