@@ -13,6 +13,7 @@ function Home() {
       <p className="p-8 border-2 border-solid border-yellow-400">
         Welcome to Dashboard
       </p>
+      <button></button>
     </div>
   );
 }
